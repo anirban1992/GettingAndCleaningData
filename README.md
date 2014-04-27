@@ -7,13 +7,12 @@
 
 * Put run_analysis.R inside this folder (by cloning this repository)
 
-* Before running this script, please set your working directory to the folder UCI HAR Dataset
-
+* Before running this script, please set your working directory to the folder UCI HAR Dataset 
   and then: source("run_analysis.R")
 
 * This will run the file and result in a file tidy_data.txt
-* Also, the combined data set would be present in a variable final_data
 
-  tidy_data.txt -- 180 * 68 data table
+* Also, the combined data set would be present in a variable final_data
+  tidy_data.txt -- 180 * 68 data table -- this is the final tidy data
 
 * It takes some time for the script to run, so do be patient
