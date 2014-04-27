@@ -2,9 +2,9 @@
 
 # reads the data for X
 data1 <- rbind(read.table("train/X_train.txt"),read.table("test/X_test.txt"))
-#reads the data for y
+# reads the data for y
 data2 <- rbind(read.table("train/y_train.txt"),read.table("test/y_test.txt"))
-#reads the data for subject
+# reads the data for subject
 subject <- rbind(read.table("train/subject_train.txt"),read.table("test/subject_test.txt"))
 
 #2 Extract measurements from columns containing mean and std in the name.
@@ -54,5 +54,5 @@ for (i in 1:length(S)) # iteration based on no of subjects (unique)
   }
 }
 
-#writes the file to file name tidy_data.txt
+# writes the file to file name tidy_data.txt
 write.table(tidy_data, "tidy_data.txt")
